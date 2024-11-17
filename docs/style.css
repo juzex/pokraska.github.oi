@@ -5,7 +5,7 @@
 }
 body { 
     z-index: 1;
-    background-color: #141414;
+    background-color: #efedea ;
     min-width: 320px;
     font-family: "REM", sans-serif;
     font-optical-sizing: auto;
@@ -30,7 +30,7 @@ a {
     align-items: center;
     height: 100%;
     width: 100%;
-    background-color: #281d33;
+    background-color: #aea59d;
     opacity: 0.8;
     border-radius: 4vmax;
 }
@@ -38,7 +38,7 @@ a {
     margin-left: 0;
     margin-right: 0;
     padding: 0.7vmax 1.5vmax;
-    background-color: #0c0214;
+    background-color: #989ba0;
     border-radius: 4vmax;
 }
 #header-setting-container #logo {
@@ -57,7 +57,7 @@ a {
 #main-photo {
     width: 95vw;
     height: 83vmin;
-    background-image: url(photo/mainphoto.jpg);
+    background-image: url(../paintavto/photo/mainphoto.jpg);
     background-color: black;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -85,7 +85,7 @@ h1 {
 }
 #main-photo div { 
     display: flex;
-    background-color: #141414;
+    background-color: #efedea;
     opacity: 0.7;
     border-radius: 0 2vmax 0 2vmax;
     width: auto;
@@ -96,7 +96,7 @@ h1 {
     margin-right: 0;
 }
 #main-photo div a { 
-    background-color: #281d33;
+    background-color: #aea59d;
     padding: 1.5vmax 6vmin;
     border-radius: 7.5vw;
     height: 3vh;
@@ -113,7 +113,7 @@ h1 {
 }
 #main-container h2 {
     padding: 1.5vmax 2vmin;
-    background-color: #281d33;
+    background-color: #aea59d;
     opacity: 0.9;
     border-radius: 3vmax;
     font-size: 3.5vh;
@@ -135,7 +135,7 @@ h1 {
     width: 24%;
     height: auto;
     border-radius: 2vmax;
-    background-color: #0c0214;
+    background-color: #989ba0;
     opacity: 0.7;
     margin-top: 0;
     margin-bottom: 2vmax;
@@ -188,7 +188,7 @@ h1 {
     width: 31vw;
     height: 20vmax;
     border-radius: 2vmax;
-    background-color: #0c0214;
+    background-color: #989ba0;
     opacity: 0.7;
     margin: 0;
     margin-bottom: 1vmax;
@@ -234,7 +234,7 @@ h1 {
     font-size: 1.7vmax;
     padding: 1vmax 1vw;
     border-radius: 2vmax;
-    background-color: #281d33;
+    background-color: #aea59d;
     margin-right: 0;
     border: none;
 }
@@ -242,7 +242,7 @@ h1 {
 .zapros { 
     width: 100%;
     height: auto;
-    background-color: #0c0214;
+    background-color: #989ba0;
     opacity: 0.7;
     border-radius: 2vmax;
     margin: 0;
@@ -276,7 +276,7 @@ h1 {
     margin-bottom: 2vmax;
     font-size: 2vh;
     border: none;
-    background-color: #281d33;
+    background-color: #aea59d;
 }
 .container-anketa textarea { 
     height: 8vmax;
@@ -288,7 +288,7 @@ h1 {
     margin-left: 1%;
     font-size: 2.2vh;
     border: none;
-    background-color: #281d33;
+    background-color: #aea59d;
 }
 .container-anketa button { 
     height: auto;
@@ -300,7 +300,7 @@ h1 {
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
-    background-color: #281d33;
+    background-color: #aea59d;
     border: none;
 }
 /* contacts */
@@ -329,7 +329,7 @@ iframe {
     flex-direction: column;
     justify-content: flex-start;
     margin: 0;
-    background-color: #0c0214;
+    background-color: #989ba0;
     opacity: 0.7;
     border-radius: 2vmax;
 }
@@ -366,7 +366,7 @@ iframe {
     border-radius: 2vmax;
     margin-top: 1vmax;
     justify-content: space-between;
-    background-color: #0c0214;
+    background-color: #989ba0;
     opacity: 0.7;
 }
 #container-grafic { 
@@ -395,7 +395,7 @@ iframe {
     margin: 0;
     border-radius: 2vmax;
     margin-top: 1vmax;
-    background-color: #0c0214;
+    background-color: #989ba0;
     opacity: 0.7;
 }
 #mini-container-adres { 
@@ -423,19 +423,19 @@ iframe {
 footer { 
     width: 100%;
     height: auto;
-    background-color: #141414;
+    background-color: #efedea;
     margin-top: 4vmax;
 }
 footer .zapros { 
     width: 95%;
-    background-color: 	#0c0214;
+    background-color: 	#989ba0;
     opacity: 0.7;
     margin-bottom: 2vmax;
     margin-left: auto;
     margin-right: auto;
 }
 footer .zapros button { 
-    background-color: 	#281d33;
+    background-color: 	#aea59d;
     opacity: 0.7;
 }
 footer #container-footer { 
@@ -543,7 +543,7 @@ footer div #container-under-footer span {
     #but-more button { 
         height: 100%;
         width: 100%;
-        background: #0c0214;
+        background: #989ba0;
         border: none;
         border-radius: 3.5vmax;
         padding: 0;
@@ -552,12 +552,13 @@ footer div #container-under-footer span {
         width: 100%;
         height: 100%;
         background-color: none;
+        filter: invert(1);
     }
     #but-more {
         height: 3vh;
         width: 3vh;
         border-radius: 3vh;
-        background-color: #0c0214;
+        background-color: #989ba0;
         padding: 1.5vh 1.5vh;
         display: inline;
         margin: 0;
